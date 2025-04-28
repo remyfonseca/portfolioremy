@@ -776,16 +776,7 @@ body{
         display: block;
         margin: 4rem 0;
     }
-    
-    .home-detail{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .home-detail h1,h2{
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -817,6 +808,7 @@ body{
 
     .home-detail {
         width: 100%;
+        text-align: center;
     }
 
     .home-detail h1 {

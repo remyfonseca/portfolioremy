@@ -777,6 +777,15 @@ body{
         margin: 4rem 0;
     }
     
+    .home-detail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-detail h1,h2{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
